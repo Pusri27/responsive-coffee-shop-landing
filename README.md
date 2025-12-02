@@ -48,7 +48,7 @@ No frameworks, no build tools → lightweight & fully free.
 # 📂 Project Structure
 
 ```
-coffee-shop-landing-page/
+responsive-coffee-shop-landing/
 │
 ├── index.html         # Main structure
 ├── styles.css         # Styling + responsive layout
@@ -65,8 +65,8 @@ coffee-shop-landing-page/
 
 ## 1️⃣ Clone the project
 ```bash
-git clone https://github.com/YOUR_USERNAME/coffee-shop-landing-page
-cd coffee-shop-landing-page
+git clone https://github.com/Pusri27/responsive-coffee-shop-landing
+cd responsive-coffee-shop-landing
 ```
 
 ## 2️⃣ Open it in the browser  
