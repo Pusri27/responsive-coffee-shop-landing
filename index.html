@@ -7,13 +7,31 @@
     <title>BrewVista Coffee | Premium Coffee Experience</title>
     <meta name="description"
         content="Experience the finest freshly brewed coffee at BrewVista. Cozy atmosphere, premium beans, and friendly service.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://brewvista.com/">
+    <meta property="og:title" content="BrewVista Coffee | Premium Coffee Experience">
+    <meta property="og:description"
+        content="Experience the finest freshly brewed coffee at BrewVista. Cozy atmosphere, premium beans, and friendly service.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://brewvista.com/">
+    <meta property="twitter:title" content="BrewVista Coffee | Premium Coffee Experience">
+    <meta property="twitter:description"
+        content="Experience the finest freshly brewed coffee at BrewVista. Cozy atmosphere, premium beans, and friendly service.">
+    <meta property="twitter:image"
+        content="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1200&q=80">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -44,12 +62,18 @@
     <main>
         <!-- Hero Section -->
         <section id="hero" class="hero">
+            <!-- Floating Elements (Beans/Leaves) - Using Emojis for reliability -->
+            <span class="floating-element float-1">🫘</span>
+            <span class="floating-element float-2">🌿</span>
+            <span class="floating-element float-3">🫘</span>
+            <span class="floating-element float-4">🍂</span>
+
             <div class="hero-content">
-                <h1>Experience the Perfect Brew</h1>
+                <h1>Experience the<br>Perfect Brew</h1>
                 <p>Awaken your senses with our ethically sourced, freshly roasted premium coffee beans.</p>
                 <div class="hero-buttons">
-                    <a href="#menu" class="btn btn-primary">Order Now</a>
-                    <a href="#menu" class="btn btn-secondary">View Menu</a>
+                    <a href="#menu" class="btn btn-primary magnetic-btn">Order Now</a>
+                    <a href="#menu" class="btn btn-secondary magnetic-btn">View Menu</a>
                 </div>
             </div>
         </section>
@@ -97,10 +121,13 @@
                 </div>
                 <div class="menu-grid">
                     <!-- Item 1 -->
-                    <div class="menu-card">
+                    <div class="menu-card stagger-delay-1" data-theme="espresso">
                         <div class="menu-image">
                             <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
                                 alt="Signature Latte">
+                            <div class="ingredient-pop i-1">🥛</div>
+                            <div class="ingredient-pop i-2">☕</div>
+                            <div class="ingredient-pop i-3">✨</div>
                         </div>
                         <div class="menu-info">
                             <div class="menu-title">
@@ -111,10 +138,13 @@
                         </div>
                     </div>
                     <!-- Item 2 -->
-                    <div class="menu-card">
+                    <div class="menu-card stagger-delay-2" data-theme="cappuccino">
                         <div class="menu-image">
                             <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
                                 alt="Cappuccino">
+                            <div class="ingredient-pop i-1">☁️</div>
+                            <div class="ingredient-pop i-2">☕</div>
+                            <div class="ingredient-pop i-3">🍫</div>
                         </div>
                         <div class="menu-info">
                             <div class="menu-title">
@@ -125,10 +155,13 @@
                         </div>
                     </div>
                     <!-- Item 3 -->
-                    <div class="menu-card">
+                    <div class="menu-card stagger-delay-3" data-theme="coldbrew">
                         <div class="menu-image">
                             <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
                                 alt="Cold Brew">
+                            <div class="ingredient-pop i-1">🧊</div>
+                            <div class="ingredient-pop i-2">💧</div>
+                            <div class="ingredient-pop i-3">☕</div>
                         </div>
                         <div class="menu-info">
                             <div class="menu-title">
@@ -139,10 +172,13 @@
                         </div>
                     </div>
                     <!-- Item 4 -->
-                    <div class="menu-card">
+                    <div class="menu-card stagger-delay-1" data-theme="caramel">
                         <div class="menu-image">
                             <img src="https://images.unsplash.com/photo-1571328003758-4a3921661729?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
                                 alt="Caramel Macchiato">
+                            <div class="ingredient-pop i-1">🍮</div>
+                            <div class="ingredient-pop i-2">🥛</div>
+                            <div class="ingredient-pop i-3">☕</div>
                         </div>
                         <div class="menu-info">
                             <div class="menu-title">
@@ -153,10 +189,13 @@
                         </div>
                     </div>
                     <!-- Item 5 -->
-                    <div class="menu-card">
+                    <div class="menu-card stagger-delay-2" data-theme="mocha">
                         <div class="menu-image">
                             <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
                                 alt="Mocha">
+                            <div class="ingredient-pop i-1">🍫</div>
+                            <div class="ingredient-pop i-2">🥛</div>
+                            <div class="ingredient-pop i-3">☕</div>
                         </div>
                         <div class="menu-info">
                             <div class="menu-title">
@@ -167,10 +206,13 @@
                         </div>
                     </div>
                     <!-- Item 6 -->
-                    <div class="menu-card">
+                    <div class="menu-card stagger-delay-3" data-theme="matcha">
                         <div class="menu-image">
                             <img src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
                                 alt="Matcha Latte">
+                            <div class="ingredient-pop i-1">🍵</div>
+                            <div class="ingredient-pop i-2">🍃</div>
+                            <div class="ingredient-pop i-3">🥛</div>
                         </div>
                         <div class="menu-info">
                             <div class="menu-title">
@@ -190,22 +232,39 @@
                 <div class="section-header">
                     <h2>Why Choose Us</h2>
                 </div>
+                <!-- ... existing features grid ... -->
                 <div class="features-grid">
+                    <!-- ... existing content ... -->
                     <div class="feature-card">
                         <h3>Locally Roasted</h3>
                         <p>We roast our beans in small batches right here in the city for maximum freshness.</p>
                     </div>
-                    <div class="feature-card">
-                        <h3>Cozy Workspace</h3>
-                        <p>Free high-speed Wi-Fi and plenty of power outlets for your productivity.</p>
+                    <!-- ... other cards ... -->
+                </div>
+            </div>
+        </section>
+
+        <!-- New Gamified Rewards Section -->
+        <section id="rewards" class="section rewards-section">
+            <div class="container">
+                <div class="rewards-wrapper">
+                    <div class="rewards-content">
+                        <h2>Join the<br><span class="text-gold">Vista Club</span></h2>
+                        <p>Earn liquid gold with every sip. Watch your cup fill up and unlock exclusive premium rewards,
+                            secret menu items, and free pours.</p>
+                        <a href="#" class="btn btn-primary magnetic-btn">Start Earning</a>
                     </div>
-                    <div class="feature-card">
-                        <h3>Fast Takeaway</h3>
-                        <p>In a rush? Order ahead and grab your coffee on the go.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h3>Online Orders</h3>
-                        <p>Order from our website and get delivery straight to your door.</p>
+                    <div class="rewards-visual">
+                        <div class="cup-container">
+                            <div class="cup">
+                                <div class="liquid"></div>
+                                <div class="cup-handle"></div>
+                            </div>
+                            <div class="points-circle">
+                                <span class="points-value">85</span>
+                                <span class="points-label">PTS</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -352,7 +411,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script type="module" src="/src/main.js"></script>
 </body>
 
 </html>

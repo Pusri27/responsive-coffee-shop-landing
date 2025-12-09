@@ -1,0 +1,29 @@
+{
+  "name": "brewvista-coffee",
+  "version": "1.0.0",
+  "description": "A clean, modern, and fully responsive landing page for a fictional coffee shop called **BrewVista Coffee**.   Built using **pure HTML, CSS, and vanilla JavaScript**, this project showcases front-end layout skills, UI design, responsive layouts, and basic interactivity — perfect as a portfolio project for freelance clients or Upwork applications.",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pusri27/responsive-coffee-shop-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Pusri27/responsive-coffee-shop-landing/issues"
+  },
+  "homepage": "https://github.com/Pusri27/responsive-coffee-shop-landing#readme",
+  "devDependencies": {
+    "vite": "^7.2.7"
+  },
+  "dependencies": {
+    "lenis": "^1.3.15"
+  }
+}
