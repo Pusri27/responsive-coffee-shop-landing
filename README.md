@@ -84,49 +84,6 @@ Open: **http://localhost:8000**
 
 ---
 
-# 🎨 Customization
-
-You can easily adapt this project into:
-
-- A real UMKM coffee shop website  
-- A modern agency landing page  
-- A personal portfolio landing page  
-- A template for future freelance clients  
-
-To customize:
-
-- Change text in `index.html`
-- Replace images in `/assets`
-- Adjust colors & fonts in `styles.css`
-- Modify layout or add sections as needed
-
----
-
-# 🎯 Portfolio Value
-
-This project demonstrates your ability to:
-
-- Build clean & responsive layouts  
-- Design modern UI without frameworks  
-- Write maintainable HTML/CSS  
-- Add interactive JS behaviors  
-- Create small-business landing pages (UMKM)  
-
-This is exactly the type of project Upwork/Fiverr clients look for when hiring a front-end developer.
-
----
-
-# 🖼 Screenshots (optional)
-
-You can add images here once the project is finished:
-
-- Hero section preview  
-- Menu section preview  
-- Gallery grid  
-- Mobile vs desktop view  
-
----
-
 # 📄 License
 
 This project is free to use, modify, or adapt for personal portfolios or client work.
